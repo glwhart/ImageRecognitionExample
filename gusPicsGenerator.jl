@@ -21,7 +21,7 @@ for i ∈ 1:150
     save("images/sineSpots$(lpad(i,3,'0')).png",sineSpots(N))
 end
 for i ∈ 1:150
-    save("images/rank1$(lpad(i,3,'0')).png",rank1(N))
+    save("images/rankone$(lpad(i,3,'0')).png",rank1(N))
 end
 for i ∈ 1:150
     save("images/noise$(lpad(i,3,'0')).png",noise(N))
